@@ -1,1 +1,24 @@
-
+{
+  "name": "ASIPFriendFinder",
+  "version": "1.0.0",
+  "description": "A compatibility friend finder based on user answers to a variety of questions.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-marshall1/Friends.git"
+  },
+  "keywords": ["FriendFinder", "friend", "survey", "quiz"],
+  "author": "Andy Marshall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrew-marshall1/Friends/issues"
+  },
+  "homepage": "https://github.com/andrew-marshall1/Friends#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
